@@ -1,0 +1,233 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.descartar__banner {
+    background-color: var(--azul-escuro);
+    margin: 90px 35px 30px 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.descartar__banner h4 {
+    font-family: var(--fonte-Anton);
+    color: var(--cor-fonte-primaria);
+    font-size: 4em;
+    padding: 20px 0 10px 38px;
+}
+
+.descartar__banner p {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1.7em;
+    padding: 0 0 10px 38px;
+}
+
+.search-bar {
+    margin: 0 0 30px 32px;
+}
+
+.search-bar input {
+    margin: 0 0 30px 5px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.descartar__conteudo {
+    display: flex;
+    flex-direction: column;
+    margin: 45px 35px 30px 35px;
+    justify-content: center;
+}
+
+.fileira {
+    margin-bottom: 50px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.EchoPonto__card {
+    background-color: var(--azul-escuro);
+    padding: 11px 10px 15px 15px;
+    border-radius: 20px;
+    color: var(--cor-fonte-primaria);
+    font-family: var(--fonte-primaria);
+    width: 22%;
+    box-sizing: border-box;
+}
+
+.EchoPonto__card h5 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.EchoPonto__card p {
+    font-size: 1em;
+    font-weight: 200;
+    padding: 10px 0 25px 0;
+}
+
+.EchoPonto__card a {
+    background-color: var(--azul-claro);
+    font-size: 1em;
+    font-weight: 300;
+    padding: 4px 17px;
+    border-radius: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.echo-ponto {
+    background-color: white;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.echo-ponto h2 {
+    font-family: var(--fonte-primaria);
+    margin: 0 0 10px 0;
+}
+
+.echo-ponto p {
+    font-family: var(--fonte-primaria);
+    margin: 0 0 20px 0;
+}
+
+.echo-ponto button {
+    font-family: var(--fonte-primaria);
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.echo-ponto button:hover {
+    background-color: #005bb5;
+}
+
+.mapa_img {
+    width: 45%;
+}
+
+/* Media query para telas com largura máxima de 1024px */
+@media screen and (max-width: 1024px) {
+    .descartar__banner h4 {
+        font-size: 3em;
+    }
+
+    .descartar__banner p {
+        font-size: 1.5em;
+    }
+
+    .search-bar input {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .fileira {
+        width: 100%;
+    }
+
+    .EchoPonto__card {
+        width: 45%;
+    }
+
+    .descartar__conteudo {
+        margin: 20px 15px;
+    }
+}
+
+/* Media query para telas com largura máxima de 768px */
+@media screen and (max-width: 768px) {
+    .descartar__banner {
+        margin: 40px 20px;
+        padding: 20px;
+    }
+
+    .descartar__banner h4 {
+        font-size: 2em;
+        padding: 10px 0;
+    }
+
+    .descartar__banner p {
+        font-size: 1.2em;
+    }
+
+    .search-bar input {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .fileira {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EchoPonto__card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .descartar__conteudo {
+        margin: 10px 10px;
+    }
+}
+
+/* Media query para telas com largura máxima de 480px */
+@media screen and (max-width: 480px) {
+    .descartar__banner {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    .descartar__banner h4 {
+        font-size: 1.5em;
+    }
+
+    .descartar__banner p {
+        font-size: 1em;
+    }
+
+    .search-bar input {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .fileira {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EchoPonto__card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .descartar__conteudo {
+        margin: 5px;
+    }
+}
