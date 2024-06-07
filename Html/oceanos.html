@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/oceanos.css">
+</head>
+<body>
+    
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <img class="cabecalho__logo" src="../img/Logo.svg" alt="Logo da aplicação">
+            <a class="cabecalho__menu__link" href="../index.html">Home</a>
+            <a class="cabecalho__menu__link" href="./oceanos.html">Oceanos</a>
+            <a class="cabecalho__menu__link" href="./resgatar.html">Resgatar produto</a>
+            <a class="cabecalho__menu__link__botao" href="./descartar.html">Onde Descartar?</a>
+        </nav>
+    </header>
+
+    <main class="oceanos">
+        <section class="banner__oceanos">
+            <img class="imagem__banner" src="../img/imagem oceano1.svg">
+            <div class="primeiro__conteudo__texto">
+                <h1 class="oceanos__titulo_1"><strong class="destaque__oceano">Economia Azul: </strong> Potencial e Sustentabilidade</h1>
+                <p class="oceanos__introducao_1">A economia azul é um conceito emergente que busca a utilização sustentável dos recursos oceânicos para o crescimento econômico, melhoria dos meios de subsistência e emprego, e ao mesmo tempo que preserva a saúde do oceano. Ela oferece soluções para o desenvolvimento sustentável que equilibram a necessidade de crescimento econômico, criação de empregos e conservação ambiental marinha.</p>
+            </div>
+        </section>
+
+        <section class="oceanos__conteudo">
+            <div class="oceanos__condicoes">
+                <div class="oceanos__condicoes__texto">
+                    <h2 class="oceanos__condicoes__titulo">Condição Atual do Oceano</h2>
+                    <p class="oceanos__condicoes__descricao">Apesar de os mares e oceanos cobrirem mais de 70% da superfície do planeta, ainda é necessário conhecê-los melhor para conservá-los.
+                    “A vida nos oceanos está diminuindo em todo o mundo devido à pesca excessiva, destruição de habitats e mudanças climáticas. No entanto, apenas 7% do oceano está atualmente sob algum tipo de proteção”, destaca Enric Sala, explorador da National Geographic.</p>
+                </div>
+                <img class="oceanos__condicoes__imagem" src="../img/expedicao.svg" alt="Condição Atual do Oceano">
+            </div>
+            <h2 class="desafios__oceanos__titulo"> Desafios Atuais do Oceano</h2>
+            <ul class="desafios__oceanos__lista">
+                <li>Poluição Marinha: A cada ano, oito milhões de toneladas de plástico entram nos oceanos, decompondo-se em microplásticos que são ingeridos pela vida marinha, impactando também a saúde humana. Produtos químicos, metais pesados e esgoto não tratado agravam a situação.</li>
+                <li>Aquecimento dos Oceanos: As temperaturas crescentes causam a destruição de recifes de corais, deslocamento de espécies marinhas e alterações nos padrões de migração. O derretimento das calotas polares eleva o nível do mar, ameaçando comunidades costeiras.</li>
+                <li>Acidificação dos Oceanos: A absorção de CO2 pelos oceanos dificulta a formação de conchas e esqueletos de corais e moluscos, comprometendo toda a cadeia alimentar marinha.</li>
+            </ul>
+            <h2 class="economia__azul__titulo">Economia Azul: Uma Solução Sustentável</h2>
+            <p class="economia__azul__descricao"> A economia azul promove um desenvolvimento econômico sustentável, inspirando-se no funcionamento da natureza e na economia circular para transformar resíduos em materiais eficientes. Visa separar o desenvolvimento socioeconômico da degradação ambiental.
+            O conceito, desenvolvido por Gunter Pauli, busca criar inovações sustentáveis que beneficiem tanto o meio ambiente quanto a economia, gerando mais de 100 milhões de empregos.</p>
+            <div class="oceanos__exemplos">
+                <img class="oceanos__exemplos__imagem" src="../img/lixo-no-oceano 1.svg" alt="Condição Atual do Oceano">
+                <div class="oceanos__exemplos__texto">
+                    <h2 class="oceanos__exemplos__titulo">Exemplo de Sucesso</h2>
+                    <p class="oceanos__exemplos__descricao">Na Costa Rica, Noelia Hernández, exploradora da National Geographic, promoveu a criação de uma nova área marinha protegida e coordena um estudo sobre a economia azul com a Pristine Seas.<br>Em 2021, a revista Nature publicou um estudo liderado por Sala que propôs uma solução abrangente para problemas ambientais decorrentes das mudanças climáticas. Proteger áreas específicas dos oceanos poderia resolver crises climáticas, alimentares e de biodiversidade, aumentando as capturas de pesca e protegendo habitats marinhos.<br>“A humanidade e a economia se beneficiarão de um oceano mais saudável, e podemos colher esses benefícios rapidamente se os países trabalharem juntos para proteger pelo menos 30% do oceano até 2030”, enfatiza Sala.</p>
+                </div>
+            </div>
+            <h2 class="transformacao__titulo">Transformação das Praias</h2>
+            <p class="transformacao__descricao">A imagem abaixo mostra uma praia antes e depois da limpeza, destacando como iniciativas de conservação podem restaurar a beleza e a saúde dos ecossistemas costeiros.</p>  
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="image-container">
+                  <img class="image-before slider-image" src="../img/Antes .jpg" alt="color photo"/>
+                  <img class="image-after slider-image" src="../img/Depois .jpg" alt="black and white"/>
+                </div>
+                <input
+                  type="range"
+                  min="0"
+                  max="100"
+                  value="50"
+                  aria-label="Percentage of before photo shown"
+                  class="slider"
+                />
+                <div class="slider-line" aria-hidden="true"></div>
+                <div class="slider-button" aria-hidden="true">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    fill="currentColor"
+                    viewBox="0 0 256 256"
+                  >
+                    <rect width="256" height="256" fill="none"></rect>
+                    <line
+                      x1="128"
+                      y1="40"
+                      x2="128"
+                      y2="216"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></line>
+                    <line
+                      x1="96"
+                      y1="128"
+                      x2="16"
+                      y2="128"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></line>
+                    <polyline
+                      points="48 160 16 128 48 96"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></polyline>
+                    <line
+                      x1="160"
+                      y1="128"
+                      x2="240"
+                      y2="128"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></line>
+                    <polyline
+                      points="208 96 240 128 208 160"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="16"
+                    ></polyline>
+                  </svg>
+                </div>
+              </div>
+        </section>
+
+        <footer class="footer__azul">
+            <div class="footer_text">
+                Vamos Transformar o Mundo Juntos?
+            </div>
+            <div class="contact_form">
+                <label for="name">Solicite seu contato</label>
+                <input type="text" id="name" name="name" placeholder="Nome">
+                <input type="text" id="email" name="email" placeholder="Email">
+                <input type="text" id="phone" name="phone" placeholder="Telefone">
+                <button type="submit">Enviar</button>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </main>
+
+

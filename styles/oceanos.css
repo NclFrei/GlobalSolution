@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --azul-primaria: #FE424D;
+    --azul-escuro: #022D41;
+    --azul-claro: #72A7D3;
+
+    --cor-fonte-primaria: #FFFFFF;
+
+    --fonte-primaria: "Inter", sans-serif;
+    --fonte-Lexend: "Lexend Deca", sans-serif;
+    --fonte-Anton: "Anton", sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.cabecalho__menu{
+    background-color: var(--azul-escuro);
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo{
+    margin: 10px auto 10px 50px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-primaria);
+    font-size: 1.1em;
+    color: var(--cor-fonte-primaria);
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.cabecalho__menu__link__botao{
+    font-family: var(--fonte-primaria);
+    font-size: 1.1em;
+    color: var(--cor-fonte-primaria);
+    text-decoration: none;
+    border: 2px solid var(--cor-fonte-primaria);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.banner__cabecalho {
+    width: 100%; 
+    height: auto; 
+}
+
+.oceanos{
+    font-family: var(--fonte-primaria);
+}
+
+.destaque__oceano{
+    font-weight: 700;
+}
+.banner__oceanos{
+    margin-top: 7%;
+    background-color: var(--azul-escuro);
+    display: flex;
+    color: var(--cor-fonte-primaria);
+
+}
+
+.imagem__banner{
+    width: 50%;
+}
+
+.oceanos__titulo_1{
+    font-weight: 500;
+    font-size: 2em;
+}
+
+.primeiro__conteudo__texto{
+    padding: 110px 20px 40px 20px;
+    width: 50%;
+}
+
+.oceanos__introducao_1{
+    padding-top: 50px;
+    font-size: 1.5em;
+}
+
+.oceanos__conteudo{
+    padding: 120px 90px;
+}
+
+.oceanos__condicoes{
+    display: flex;
+}
+
+.oceanos__condicoes__texto{
+    width: 50%;
+}
+
+.oceanos__condicoes__titulo{
+    font-weight: 600;
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 20px;
+}
+
+.oceanos__condicoes__descricao{
+    font-size: 1.5em;
+}
+
+.oceanos__condicoes__imagem{
+    width: 38%;
+    padding-left: 100px;
+}
+
+.desafios__oceanos__titulo{
+    font-weight: 600;
+    font-size: 2.3em;
+    padding: 20px 0 40px 11%;
+}
+
+.desafios__oceanos__lista{
+    font-size: 1.4em;
+    padding-bottom: 100px;
+}
+
+.economia__azul__titulo{
+    font-weight: 600;
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.economia__azul__descricao{
+    font-size: 1.4em;
+    padding-bottom: 100px;
+}
+
+.oceanos__exemplos{
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.oceanos__exemplos__imagem{
+    width: 50%;
+}
+.oceanos__exemplos__texto{
+    width: 65%;
+    padding-left: 100px;
+}
+
+.oceanos__exemplos__titulo{
+    font-weight: 600;
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.oceanos__exemplos__descricao{
+    font-size: 1.4em;
+}
+
+.transformacao__titulo{
+    font-weight: 600;
+    font-size: 2.3em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.transformacao__descricao{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+
+.video-container {
+  margin: 2rem;
+  max-height: 300px;
+}
+
+
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  --position: 50%;
+}
+
+.image-container {
+  max-width: 1000px;
+}
+
+.slider-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.image-before {
+  position: absolute;
+  inset: 0;
+  width: var(--position);
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+  opacity: 0;
+  /* for Firefox */
+  width: 100%;
+  height: 100%;
+}
+
+.slider:focus-visible ~ .slider-button {
+  outline: 5px solid black;
+  outline-offset: 3px;
+}
+
+.slider-line {
+  position: absolute;
+  inset: 0;
+  width: .2rem;
+  height: 100%;
+  background-color: #fff;
+  /* z-index: 10; */
+  left: var(--position);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.slider-button {
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  padding: .5rem;
+  border-radius: 100vw;
+  display: grid;
+  place-items: center;
+  top: 50%;
+  left: var(--position);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  /* z-index: 100; */
+  box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+}
+
+.footer__azul{
+    margin-top: 50px;
+    background-color: var(--azul-escuro);
+    padding: 60px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact_form {
+    background-color: var(--cor-fonte-primaria);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid var(--azul-claro);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.contact_form label {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.contact_form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%;
+}
+.contact_form button {
+    background-color: var(--azul-primaria);
+    color: var(--cor-fonte-primaria);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    font-family: var(--fonte-primaria);
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecalho__logo {
+        margin: 10px auto 10px 5px;
+    }
+    
+    .cabecalho__menu__link,
+    .cabecalho__menu__link__botao {
+        font-size: 1em;
+    }
+
+    .contact_form {
+        width: 80%;
+    }
+
+    .banner__oceanos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem__banner {
+        width: 100%;
+    }
+
+    .primeiro__conteudo__texto {
+        width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .oceanos__conteudo {
+        padding: 80px 40px;
+    }
+
+    .oceanos__condicoes,
+    .oceanos__exemplos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .oceanos__condicoes__imagem,
+    .oceanos__exemplos__imagem {
+        width: 100%;
+        padding-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .oceanos__condicoes__texto,
+    .oceanos__exemplos__texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    .footer__azul {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 10%;
+    }
+}
+
+/* Media query para telas de até 1024px */
+@media screen and (max-width: 1024px) {
+    .cabecalho__logo {
+        margin: 10px auto 10px 50px;
+    }
+    
+    .cabecalho__menu__link,
+    .cabecalho__menu__link__botao {
+        font-size: 1em;
+    }
+
+    .footer__azul {
+        padding: 60px 5%;
+    }
+
+    .contact_form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .cabecalho__logo{
+        margin: 10px auto 10px 5px;
+        width: 15%;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 13px;
+    }
+
+    .cabecalho__menu__link__botao{
+        padding: 7px;
+        text-align: center;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+
+    .oceanos__conteudo {
+        padding: 0;
+        max-width: 100%; /* Adicione esta linha */
+    }
+
+    .oceanos__exemplos__texto{
+        padding-left: 0;
+    }
+}
