@@ -1,0 +1,481 @@
+.page1 {
+    background-color: #FFFFFF;
+}
+
+.cabecalho__menu{
+    background-color: var(--azul-escuro);
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo{
+    margin: 10px auto 10px 50px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-primaria);
+    font-size: 1.1em;
+    color: var(--cor-fonte-primaria);
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.cabecalho__menu__link__botao{
+    font-family: var(--fonte-primaria);
+    font-size: 1.1em;
+    color: var(--cor-fonte-primaria);
+    text-decoration: none;
+    border: 2px solid var(--cor-fonte-primaria);
+    padding: 15px;
+    border-radius: 30px;
+}
+.opcoes{
+    display: none;
+}
+.apresentacao{
+    margin: 90px 15%;
+}
+
+.titulo-destaque{
+    
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    background-color: var(--azul-primaria);
+    padding: 2px;
+    font-weight: 700;
+}
+
+.apresentacao h1{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+}
+
+.apresentacao__conteudo__div p{
+    font-family: var(--fonte-primaria);
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.apresentacao__conteudo__div a{
+    color: var(--cor-fonte-primaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--azul-primaria);
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.apresentecao__conteudo__div2{
+    display: flex;
+    align-items: center;
+}
+
+.apresentecao__conteudo__div2 h2{
+    display: flex;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 30px;
+    margin: 30px 10px;
+}
+
+.apresentecao__conteudo__div2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.apresentacao__conteudo__diagrama{
+    width: 80%;
+}
+
+.apresentacao__conteudo__imagem{
+    width: 69%;
+}
+
+.reciclar__conteudo{
+    background-color: #024578;
+}
+
+.titulo__reciclar{
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 2em;
+    color: var(--cor-fonte-primaria);
+    padding-top: 64px;
+}
+
+.reciclar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px 15%;
+}
+
+.ajudando__mundo__titulo{
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    font-size: 2em;
+    padding-bottom: 10px;
+    color: var(--cor-fonte-primaria);
+}
+
+.ajudando__mundo__descricao{
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--cor-fonte-primaria);
+}
+
+.cards__responsividade{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.cards_reciclagem{
+    background-color: #72A7D3;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+.cards_reciclagem__imagens{
+    width: 18%;
+    padding: 10px 5px 0 10px;
+}
+
+.cards_titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 20px 5px 10px 10px;
+}
+
+.cards_descricao{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-weight: 300;
+    font-size: 0.9em;
+    padding: 0px 5px 9px 10px;
+}
+
+.cards__vermais{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1em;
+    text-decoration: none;
+    margin-left: 170px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.descarte__conteudo{
+    background-color: #024578;
+    text-align: center;
+}
+
+.step {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-left: auto; 
+    margin-right: auto; 
+    border-bottom: solid var(--cor-fonte-primaria);
+}
+
+.step__imagem{
+    width: 10%;
+    margin-right: 25px;
+}
+
+.step__titulo{
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1.4em;
+    margin-right: 60px;
+    
+}
+
+.step__descricao{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1em;   
+}
+
+.baleia__conteudo{
+    background-color: #024578;
+    padding: 90px;
+    display: flex;
+}
+
+.baleia__card_1{
+    background-color: var(--azul-claro);
+    width: 70%;
+    border-radius: 5px;
+    margin: 80px 0px 180px 90px;
+}
+
+.baleia__titulo{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1.2em;  
+    padding: 20px 0 5px 10px;
+}
+
+.baleia__descricao{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1em;  
+    padding: 20px 0 20px 10px;
+}
+
+.baleia__card_2{
+    background-color: var(--azul-claro);
+    width: 70%;
+    border-radius: 5px;
+    margin: 80px 0px 50px 130px;
+}
+
+.baleia__texto{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1em;  
+    padding: 20px 0 5px 10px;
+}
+
+.baleia__descricao{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 0.8em;  
+    padding: 20px 0 20px 10px;
+}
+
+.baleia__gif__div{
+    display: flex;
+    align-items: center;
+}
+
+.baleia__card_3{
+    background-color: var(--azul-claro);
+    width: 70%;
+    border-radius: 5px;
+    margin: 80px 0px 200px 0;
+}
+
+.baleia__card_4{
+    background-color: var(--azul-claro);
+    width: 70%;
+    border-radius: 5px;
+    margin: 80px 0px 50px 60px;
+}
+
+.footer{
+    background-color: var(--cor-fonte-primaria);
+    padding: 60px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_text{
+    font-family: var(--fonte-primaria);
+    color: var(--azul-primaria);
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+.contact_form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid var(--azul-claro);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.contact_form label {
+    font-family: var(--fonte-primaria);
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.contact_form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 85%;
+}
+.contact_form button {
+    background-color: var(--azul-primaria);
+    color: var(--cor-fonte-primaria);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 50%;
+    font-family: var(--fonte-primaria);
+}
+
+@media screen and (max-width: 1024px) {
+    /* Estilos para telas menores que 1024px */
+    .cabecalho__logo {
+        margin: 10px auto 10px 50px;
+    }
+    
+    .cabecalho__menu__link,
+    .cabecalho__menu__link__botao {
+        font-size: 1em;
+    }
+
+    .apresentacao__conteudo__imagem {
+        display: none;
+    }
+
+    .cards_reciclagem {
+        width: 60%;
+    }
+
+    .step {
+        width: 50%;
+    }
+
+    .cards__vermais {
+        margin-left: 100px; 
+    }
+
+    .baleia__card_1,
+    .baleia__card_2 {
+        margin: 80px 0px 100px 90px;
+    }
+
+    .baleia__card_3,
+    .baleia__card_4 {
+        margin: 100px 0px 100px 50px;
+    }
+
+    .baleia__gif__div {
+        display: none;
+    }
+
+    .footer {
+        padding: 60px 5%;
+    }
+
+    .contact_form {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores que 768px */
+    .cabecalho__logo {
+        margin: 10px auto 10px 5px;
+    }
+
+    .reciclar {
+        padding: 90px 15%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cards__responsividade {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cards_reciclagem {
+        width: 40%; 
+        margin: 20px 15px 20px 0; 
+    }
+
+    .step {
+        width: 80%;
+    }
+
+    .baleia__conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .baleia__texto{
+        padding: 0 0 0 0;
+    }
+
+    .baleia__card_1,
+    .baleia__card_2,
+    .baleia__card_3,
+    .baleia__card_4 {
+        width: 90%; 
+        margin: 20px 0; 
+    }
+
+    .footer {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+
+    .footer_text {
+        text-align: center; 
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cabecalho__logo{
+        width: 15%;
+    }
+
+    .cabecalho__menu__link{
+        font-size: 13px;
+    }
+
+    .cabecalho__menu__link__botao{
+        padding: 7px;
+        text-align: center;
+        font-size: 13px;
+        margin-right: 5px;
+    }
+
+    .apresentacao__conteudo__diagrama{
+        width: 120%;
+    }
+
+    .cards_reciclagem{
+        width: 70%;
+    }
+    
+    .step__imagem{
+        display: none;
+    }
+
+    .step__descricao{
+        text-align: center;
+    }
+}
+
