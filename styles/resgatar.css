@@ -1,0 +1,241 @@
+
+
+.resgatar__banner {
+    background-color: var(--azul-escuro);
+    margin: 90px 35px 30px 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.resgatar__banner h3 {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1.8em;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.resgatar__banner h2 {
+    font-family: var(--fonte-Lexend);
+    color: var(--cor-fonte-primaria);
+    font-weight: 400;
+    font-size: 4em;
+    padding: 10px 0;
+}
+
+.resgatar__banner p {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-size: 1.8em;
+    padding: 10px 0;
+}
+
+.titulo_resgate {
+    font-family: var(--fonte-primaria);
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 60px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.produtos__cards {
+    background-color: var(--cor-fonte-primaria);
+    border-radius: 5px;
+    padding: 10px;
+    width: 15%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.produtos__cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produtos__cards h3 {
+    font-family: var(--fonte-primaria);
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.produtos__precos {
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.produtos__precos h4 {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.produtos__precos p {
+    font-family: var(--fonte-primaria);
+    color: var(--azul-primaria);
+    font-size: 1.8em;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.produtos__resgatar__div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.produtos__resgatar {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    text-decoration: none;
+    font-weight: 400;
+    background-color: var(--azul-primaria);
+    padding: 10px 40px;
+    display: inline-block;
+}
+
+.footer__azul {
+    margin-top: 50px;
+    background-color: var(--azul-escuro);
+    padding: 60px 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_form {
+    background-color: var(--cor-fonte-primaria);
+}
+
+.footer_text__branco {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte-primaria);
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* Media query para telas com largura máxima de 1024px */
+@media screen and (max-width: 1024px) {
+    .produtos__cards {
+        width: 45%;
+    }
+
+    .titulo_resgate {
+        font-size: 2em;
+        padding: 40px 20px;
+    }
+
+    .resgatar__banner h2 {
+        font-size: 3em;
+    }
+
+    .resgatar__banner h3,
+    .resgatar__banner p {
+        font-size: 1.5em;
+    }
+
+    .footer__azul {
+        padding: 60px 5%;
+    }
+
+    .contact_form {
+        width: 50%;
+    }
+}
+
+/* Media query para telas com largura máxima de 768px */
+@media screen and (max-width: 768px) {
+    .titulo_resgate {
+        font-size: 1.8em;
+        padding: 30px 10px;
+    }
+
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .produtos__cards {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .resgatar__banner {
+        margin: 40px 20px 20px 20px;
+        padding: 20px;
+    }
+
+    .resgatar__banner h2 {
+        font-size: 2.5em;
+    }
+
+    .resgatar__banner h3,
+    .resgatar__banner p {
+        font-size: 1.2em;
+        padding: 0;
+    }
+
+    .produtos__resgatar {
+        padding: 10px 20px;
+    }
+
+    .footer__azul {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 10%;
+    }
+
+    .contact_form {
+        width: 70%;
+    }
+}
+
+/* Media query para telas com largura máxima de 480px */
+@media screen and (max-width: 480px) {
+    .titulo_resgate {
+        font-size: 1.5em;
+        padding: 20px 10px;
+    }
+
+    .produtos__cards {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .resgatar__banner {
+        margin: 20px 10px;
+        padding: 10px;
+    }
+
+    .resgatar__banner h2 {
+        font-size: 2em;
+    }
+
+    .resgatar__banner h3,
+    .resgatar__banner p {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .produtos__resgatar {
+        padding: 5px 10px;
+    }
+
+    .footer__azul {
+        padding: 30px 5%;
+    }
+
+    .contact_form {
+        width: 90%;
+    }
+}
